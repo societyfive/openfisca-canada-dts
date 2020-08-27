@@ -1,5 +1,5 @@
 FROM gitpod/workspace-full
-RUN npm install docker-compose
+RUN sudo apt install docker-compose
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
